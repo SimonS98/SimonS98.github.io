@@ -2,7 +2,7 @@
   "name": "oct23",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SimonS98.github.io/scaling-octo-rotary-phone",
+  "homepage": "https://SimonS98.github.io",
   "dependencies": {
     "@mui/icons-material": "^5.10.9",
     "@testing-library/jest-dom": "^5.16.5",
