@@ -1,0 +1,41 @@
+.slogan-container {
+    position: relative;
+    height: 329px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.slogan-img {
+    position: absolute;
+    height: 329px;
+    width: 329px;
+    animation: rotation 40s infinite linear;
+    z-index: 0.1;
+    background: transparent;
+}
+
+.slogan-text {
+    position: relative;
+    text-align: center;
+    z-index: 50;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    background: transparent;
+}
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

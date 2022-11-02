@@ -1,0 +1,19 @@
+.index-gallery-wrapper {
+    display: flex;
+}
+.index-gallery-container {
+    margin-top: 91px;
+    width: 2853px;
+    display: flex;
+    animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-2853px);
+    }
+
+}

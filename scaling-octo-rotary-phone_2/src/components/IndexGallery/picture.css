@@ -1,0 +1,46 @@
+.gallery-wrapper {
+    margin-left: 40px;
+}
+
+.gallery-container {
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0.6393px solid #FFFFFF;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.gallery-container > img {
+    height: 538px;
+}
+
+.gallery-detail {
+    border: 0.6393px solid #FFFFFF;
+    padding: 4px 12px;
+    font-family: 'Roboto';
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 0.5px;
+    color: #A9ACAB;
+    text-align: center;
+}
+
+.gallery-detail .title {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.gallery-user {
+    border: 0.6393px solid #FFFFFF;
+    padding: 4px 12px;
+    font-family: 'Roboto';
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #A9ACAB;
+}

@@ -1,0 +1,21 @@
+.fallGallery-container {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 30px;
+}
+
+.fallGallery-render {
+    width: 100%;
+}
+
+.picture-container {
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0.6393px solid #FFFFFF;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.picture {
+    width: 100%!important;
+}

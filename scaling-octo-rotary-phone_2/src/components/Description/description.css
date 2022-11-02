@@ -1,0 +1,128 @@
+.desc-container {
+    margin-top: 91px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linebreak{
+    width: 850px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.linebreak2{
+    width: 850px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.desc-text {
+    font-family: PingFang SC;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #747877;
+
+}
+
+.white-text {
+    color: white;
+}
+
+.full-linebreak1 {
+    margin-top: 67px;
+    border: 0.25px solid #8e9191;
+    width: 100%;
+}
+.full-linebreak2 {
+    border: 0.25px solid #8e9191;
+    width: 100%;
+    margin-bottom: 63px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
+.desc-details1 {
+    color: #a9acab;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-top: 60px;
+}
+
+.desc-details2 {
+    color: #a9acab;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-top: 45px;
+}
+
+.desc-details3 {
+    color: #a9acab;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+.center-circle-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 467px;
+    /* outline: 0.5px solid pink; */
+    position: relative;
+}
+
+.top-vertical-line {
+    height: 194px;
+    /* position: absolute;
+    top:0;
+    margin:auto;
+    left: 0;
+    right: 0; */
+    border: 5px, solid, #8e9191;
+    /* z-index: 100; */
+}
+
+.center-circle {
+    height: 197px;
+    width: 182px;
+    /* outline: 0.5px solid green; */
+}
+
+.details {
+    display: flex;
+}
+
+.details > div{
+    height: 689px;
+}
+
+.carousel1-img {
+    max-width: 100%;
+}
